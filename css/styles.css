@@ -1,0 +1,528 @@
+@charset "utf-8";
+/*
+Author: Mohammad Jawad Talebi
+Date:   3/26/2021
+*/
+@media only screen and (max-width:480px){
+    body{
+        background-color: rgb(196, 190, 190);
+        font-family: "Trirong", serif;
+    }
+    #header{
+        display: flex;
+        background-color: rgb(196, 190, 190);
+        height: 20%;
+        width: 100%;
+        flex-direction: row;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin-left:auto ;
+        margin-right:auto ;
+        margin-bottom: 5%;
+    }
+    #header div{
+        width: 50%;
+        height: 20%;
+        
+    }
+    #nav li{
+        float: left;
+        width: 33%;
+        display: block;
+        
+    }
+    #mainmenu a{
+        text-decoration: none;
+        color: black;
+    }
+
+    #pic{
+        display: block;
+        width: 50%;
+        margin-left:30%;
+    }
+    #Port{
+        text-align: center;
+        background-color: white;
+        width: 90%;
+    }
+    #body{
+        display: flex;
+        height: 60%;
+        width: 80%;
+        background-color: white;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-left:auto ;
+        margin-right:auto ;
+    }
+    #body h2{
+      width: 100%;
+    }
+    #body img{
+        display: block;
+        width: 100%;
+    }
+    #body div{
+        width: 30%;
+        
+    }
+    
+    div#Portdiv{
+        width: 100%;
+        height: 40%;
+    }
+    #img1des{
+        text-align: center;
+    }
+    #img1p{
+        text-align: center;
+    }
+    #img2des{
+        text-align: center;
+    }
+    #img3des{
+        text-align: center;
+    }
+    #img4des{
+        text-align: center;
+    }
+    #img5des{
+        text-align: center;
+    }
+    #img6des{
+        text-align: center;
+    }
+    #img2p{
+        text-align: center;
+    }
+    #img3p{
+        text-align: center;
+    }
+    #img4p{
+        text-align: center;
+    }
+    #img5p{
+        text-align: center;
+    }
+    #img6p{
+        text-align: center;
+    }
+    #footer{
+        display: flex;
+        background-color: rgb(196, 190, 190);
+        height: 20%;
+        width: 100%;
+        flex-direction: row;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin-left:auto ;
+        margin-right:auto ;
+        margin-top: 5%;
+    }
+    #contact{
+        width: 100%;
+    }
+    #h2contact{
+        text-align: center;
+    }
+    #pcontact{
+        text-align: center;
+    }
+    address{
+        text-align: center;
+    }
+    #bottom{
+        width: 100%;
+        border-top: 1px solid black;
+    
+        
+    }
+    #bottommenu li{
+        float: right;
+       width:17%;
+        display: block;
+        margin-top: 10px;
+        
+    }
+    #footerh2{
+        width: 25%;
+        float: left;
+        margin-left: 13%;
+    }
+    #bottommenu a{
+        text-decoration: none;
+        color: black;
+    }
+    #header div{
+        width: 100%;
+        
+        
+    }
+    #body div{
+        width: 100%;
+        
+    }
+    #nav li{
+        width: 100%;
+        display: block;
+        text-align: center;
+        background-color: white;
+        margin-bottom: 5px;
+        height: 25px;
+        margin-left: auto;
+        margin-right: auto;  
+    }
+    #mainmenu a{
+        text-decoration: none;
+        color: black;
+      
+    }
+    #header h1{
+        margin-left:10% ;
+        }
+        #header p{
+            margin-left: 10%;
+        }
+        #bottommenu li{
+            display: none;
+            
+        }
+        a:hover{
+            background-color: cadetblue;
+            border-radius: 5px 5px 5px 5px;
+        }
+}
+@media only screen and (min-width:481px){
+    body{
+        background-color: rgb(196, 190, 190);
+        font-family: "Trirong", serif;
+    }
+    #header{
+        display: flex;
+        background-color: rgb(196, 190, 190);
+        height: 20%;
+        width: 100%;
+        flex-direction: row;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin-left:auto ;
+        margin-right:auto ;
+        margin-bottom: 5%;
+    }
+    #header div{
+        width: 100%;
+        height: 20%;
+        
+    }
+    #nav li{
+        
+        width: 33%;
+        display: block;
+       float: left;
+        
+    }
+    #mainmenu a{
+        text-decoration: none;
+        color: black;
+    }
+    #header h1{
+    width: 100%;
+    text-align: center;
+    
+    }
+    #header p{
+        width: 100%;
+        
+    }
+    #pic{
+        display: block;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #Port{
+        text-align: center;
+        background-color: white;
+        width: 90%;
+        
+    }
+    #body{
+        display: flex;
+        height: 60%;
+        width: 98%;
+        background-color: white;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-left:auto ;
+        margin-right:auto ;
+    }
+    #body h2{
+      width: 100%;
+    }
+    #body img{
+        display: block;
+        width: 100%;
+    }
+    #body div{
+        width: 45%;
+        
+    }
+    
+    div#Portdiv{
+        width: 100%;
+        height: 40%;
+    }
+    #img1des{
+        text-align: center;
+    }
+    #img1p{
+        text-align: center;
+    }
+    #img2des{
+        text-align: center;
+    }
+    #img3des{
+        text-align: center;
+    }
+    #img4des{
+        text-align: center;
+    }
+    #img5des{
+        text-align: center;
+    }
+    #img6des{
+        text-align: center;
+    }
+    #img2p{
+        text-align: center;
+    }
+    #img3p{
+        text-align: center;
+    }
+    #img4p{
+        text-align: center;
+    }
+    #img5p{
+        text-align: center;
+    }
+    #img6p{
+        text-align: center;
+    }
+    #footer{
+        display: flex;
+        background-color: rgb(196, 190, 190);
+        height: 20%;
+        width: 100%;
+        flex-direction: row;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin-left:auto ;
+        margin-right:auto ;
+        margin-top: 5%;
+    }
+    #contact{
+        width: 100%;
+    }
+    #h2contact{
+        text-align: center;
+    }
+    #pcontact{
+        text-align: center;
+    }
+    address{
+        text-align: center;
+    }
+    #bottom{
+        width: 100%;
+        border-top: 1px solid black;
+    
+        
+    }
+    #bottommenu li{
+        float: right;
+       width:25%;
+        display: block;
+        margin-top: 10px;
+        
+        
+    }
+    #footerh2{
+        width: 10%;
+        float: left;
+        
+    }
+    #bottommenu a{
+        text-decoration: none;
+        color: black;
+    }
+    a:hover{
+        background-color: cadetblue;
+        border-radius: 5px 5px 5px 5px;
+    }
+}
+@media only screen and (min-width:769px){
+body{
+    background-color: rgb(196, 190, 190);
+    font-family: "Trirong", serif;
+}
+#header{
+    display: flex;
+    background-color: rgb(196, 190, 190);
+    height: 20%;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-left:auto ;
+    margin-right:auto ;
+    margin-bottom: 5%;
+}
+#header div{
+    width: 50%;
+    height: 20%;
+    
+}
+#nav li{
+    float: left;
+    width: 33%;
+    display: block;
+    
+}
+#mainmenu a{
+    text-decoration: none;
+    color: black;
+}
+#header h1{
+margin-left:30% ;
+}
+#header p{
+    margin-left: 30%;
+}
+#pic{
+    display: block;
+    width: 50%;
+    margin-left:30%;
+}
+#Port{
+    text-align: center;
+    background-color: white;
+    width: 90%;
+}
+#body{
+    display: flex;
+    height: 60%;
+    width: 80%;
+    background-color: white;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-left:auto ;
+    margin-right:auto ;
+}
+#body h2{
+  width: 100%;
+}
+#body img{
+    display: block;
+    width: 100%;
+}
+#body div{
+    width: 30%;
+    
+}
+
+div#Portdiv{
+    width: 100%;
+    height: 40%;
+}
+#img1des{
+    text-align: center;
+}
+#img1p{
+    text-align: center;
+}
+#img2des{
+    text-align: center;
+}
+#img3des{
+    text-align: center;
+}
+#img4des{
+    text-align: center;
+}
+#img5des{
+    text-align: center;
+}
+#img6des{
+    text-align: center;
+}
+#img2p{
+    text-align: center;
+}
+#img3p{
+    text-align: center;
+}
+#img4p{
+    text-align: center;
+}
+#img5p{
+    text-align: center;
+}
+#img6p{
+    text-align: center;
+}
+#footer{
+    display: flex;
+    background-color: rgb(196, 190, 190);
+    height: 20%;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-left:auto ;
+    margin-right:auto ;
+    margin-top: 5%;
+}
+#contact{
+    width: 100%;
+}
+#h2contact{
+    text-align: center;
+}
+#pcontact{
+    text-align: center;
+}
+address{
+    text-align: center;
+}
+#bottom{
+    width: 100%;
+    border-top: 1px solid black;
+
+    
+}
+#bottommenu li{
+    float: right;
+   width:17%;
+    display: block;
+    margin-top: 10px;
+    
+}
+#footerh2{
+    width: 25%;
+    float: left;
+    margin-left: 13%;
+}
+#bottommenu a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    background-color: cadetblue;
+    border-radius: 5px 5px 5px 5px;
+}
+}
+
